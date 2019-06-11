@@ -20,7 +20,7 @@ EdgeDriver driver;
 	}
 	
 	public void getTitleOfThePage() {
-		System.out.println("Title Of the Page::"+driver.getTitle());
+		System.out.println("Title Of the webPage::"+driver.getTitle());
 	}
 	public void CloseBrowser() {
 		driver.close();//it close the current window
